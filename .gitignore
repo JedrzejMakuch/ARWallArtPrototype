@@ -44,13 +44,19 @@
 [Ll]ibrary/Il2cppBuildCache/
 
 # Local packages
-Packages/
+Packages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
 .packages/
 
 # Temporary files
 *.tmp
 *.temp
+*.utmp
 Temp/
+*.aar
+*.gradle/
+.gradle/
 
 # JetBrains Rider
 .idea/
