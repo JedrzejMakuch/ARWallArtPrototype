@@ -102,3 +102,4 @@ Assets/Resources/*.meta
 DoNotShip/
 *TestBuild*
 TestBuild_BackUpThisFolder_ButDontShipItWithYourGame/
+*BurstDebugInformation*
