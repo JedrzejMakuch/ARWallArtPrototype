@@ -52,7 +52,7 @@ Packages/*
 # Temporary files
 *.tmp
 *.temp
-*.utmp
+.utmp/
 Temp/
 *.aar
 *.gradle/
