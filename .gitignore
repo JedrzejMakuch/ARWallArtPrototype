@@ -1,0 +1,94 @@
+# Unity generated
+[Ll]ibrary/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Uu]serSettings/
+*.log
+*.stack
+
+# Unity build
+[Bb]uild/
+[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+*.exe
+*.x86_64
+
+# Visual Studio generated
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+.idea/
+*.swp
+*.swo
+*~
+
+# IDE
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-workspace
+*.sublime-project
+
+# Rider
+.idea/
+*.sln.iml
+
+# IL2CPP
+[Ll]ibrary/Il2cppBuildCache/
+
+# Local packages
+Packages/
+.packages/
+
+# Temporary files
+*.tmp
+*.temp
+Temp/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Platform specific
+*.o
+*.so
+*.dylib
+*.a
+*.lib
+*.dll
+*.exe
+
+# Build files
+obj/
+bin/
+dist/
+
+# Ignore test results
+TestResults/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Resharper files
+_ReSharper*/
+*.resharper.user
+
+# Ignore build results
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Extra Unity ignored files
+Assets/StreamingAssets
+Assets/Resources/*.meta

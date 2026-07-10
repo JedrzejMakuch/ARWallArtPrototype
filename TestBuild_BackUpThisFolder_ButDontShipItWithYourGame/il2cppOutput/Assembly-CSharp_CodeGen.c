@@ -1,0 +1,96 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void AR_Exhibition_Manager_Start_m6AEB18C1DE105BAFB4FE5E380A3B557267E5B09A (void);
+extern void AR_Exhibition_Manager_SelectArtwork_m31D4923EFFB36A40941407F1339F874CA91BC27E (void);
+extern void AR_Exhibition_Manager_ApplyArtworkToPrefab_m822B2536829B50582820259511FB8E8DDD0823CC (void);
+extern void AR_Exhibition_Manager__ctor_m940B0A1BC524D65A3CA9DC0EB88BA68D22614A25 (void);
+extern void AR_QuickMode_Manager_Start_m70016D193BDB71E5A089127CB18767C9B93F5AC2 (void);
+extern void AR_QuickMode_Manager_Update_mC2FAA88A0477DECFE96024A8797F04803D8D0462 (void);
+extern void AR_QuickMode_Manager_SetDistance_m86D7B683A220E95E0B115902DA6D1461603EAC50 (void);
+extern void AR_QuickMode_Manager_ToggleLock_m825016CD47E36B51927AA2EE1D88EF84BBB33FFF (void);
+extern void AR_QuickMode_Manager_UpdateUpdateButtonText_mA285024CB991C55F697E90EFFE272B67639BB14E (void);
+extern void AR_QuickMode_Manager_UpdateDistanceText_m17C738992A56A4A2470D579CC1AA10D04939D6FC (void);
+extern void AR_QuickMode_Manager_GetSpawnedImage_m6FAAFC6FFE3A86F69669400C854991E3656CB34B (void);
+extern void AR_QuickMode_Manager__ctor_m2CB7FA4E16408A5BB5D45BD3DC0CF8FFD341385A (void);
+extern void AR_SafeArea_Handler_Awake_m13DC55393A24F441A6A76EB3F1E347FAA65D5D1B (void);
+extern void AR_SafeArea_Handler_Update_m02BCAD4F27066020954971FDB3DB575B0FC25122 (void);
+extern void AR_SafeArea_Handler_RefreshSafeArea_mED5C900761BA3DDF958073CDA8FEA1A2C4FCCD84 (void);
+extern void AR_SafeArea_Handler__ctor_m06C74A21B79A7913A432EAC1F303BE1BF8A0275A (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[20] = 
+{
+	AR_Exhibition_Manager_Start_m6AEB18C1DE105BAFB4FE5E380A3B557267E5B09A,
+	AR_Exhibition_Manager_SelectArtwork_m31D4923EFFB36A40941407F1339F874CA91BC27E,
+	AR_Exhibition_Manager_ApplyArtworkToPrefab_m822B2536829B50582820259511FB8E8DDD0823CC,
+	AR_Exhibition_Manager__ctor_m940B0A1BC524D65A3CA9DC0EB88BA68D22614A25,
+	AR_QuickMode_Manager_Start_m70016D193BDB71E5A089127CB18767C9B93F5AC2,
+	AR_QuickMode_Manager_Update_mC2FAA88A0477DECFE96024A8797F04803D8D0462,
+	AR_QuickMode_Manager_SetDistance_m86D7B683A220E95E0B115902DA6D1461603EAC50,
+	AR_QuickMode_Manager_ToggleLock_m825016CD47E36B51927AA2EE1D88EF84BBB33FFF,
+	AR_QuickMode_Manager_UpdateUpdateButtonText_mA285024CB991C55F697E90EFFE272B67639BB14E,
+	AR_QuickMode_Manager_UpdateDistanceText_m17C738992A56A4A2470D579CC1AA10D04939D6FC,
+	AR_QuickMode_Manager_GetSpawnedImage_m6FAAFC6FFE3A86F69669400C854991E3656CB34B,
+	AR_QuickMode_Manager__ctor_m2CB7FA4E16408A5BB5D45BD3DC0CF8FFD341385A,
+	AR_SafeArea_Handler_Awake_m13DC55393A24F441A6A76EB3F1E347FAA65D5D1B,
+	AR_SafeArea_Handler_Update_m02BCAD4F27066020954971FDB3DB575B0FC25122,
+	AR_SafeArea_Handler_RefreshSafeArea_mED5C900761BA3DDF958073CDA8FEA1A2C4FCCD84,
+	AR_SafeArea_Handler__ctor_m06C74A21B79A7913A432EAC1F303BE1BF8A0275A,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[20] = 
+{
+	18006,
+	13359,
+	18006,
+	18006,
+	18006,
+	18006,
+	13528,
+	18006,
+	18006,
+	18006,
+	17790,
+	18006,
+	18006,
+	18006,
+	18006,
+	18006,
+	18006,
+	18006,
+	30967,
+	18006,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	20,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
