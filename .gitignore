@@ -98,3 +98,7 @@ gradle-app.setting
 # Extra Unity ignored files
 Assets/StreamingAssets
 Assets/Resources/*.meta
+*DoNotShip*
+DoNotShip/
+*TestBuild*
+TestBuild_BackUpThisFolder_ButDontShipItWithYourGame/
