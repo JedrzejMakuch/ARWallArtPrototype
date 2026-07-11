@@ -83,6 +83,10 @@ dist/
 # Ignore test results
 TestResults/
 
+# Performance test artifacts
+Assets/Resources/PerformanceTestRunInfo.json
+Assets/Resources/PerformanceTestRunSettings.json
+
 # Visual Studio cache/options directory
 .vs/
 
