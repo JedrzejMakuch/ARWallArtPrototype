@@ -20,6 +20,14 @@ public class AR_Exhibition_Manager : MonoBehaviour
         ApplyArtworkToPrefab();
     }
 
+    public void SetArtworks(List<ArtworkData> artworks)
+    {
+        exhibitionArtworks = artworks ?? new List<ArtworkData>();
+        currentArtworkIndex = 0;
+
+        ApplyArtworkToPrefab();
+    }
+
     public void SelectArtwork(int index)
     {
         if (index < 0 || index >= exhibitionArtworks.Count) return;

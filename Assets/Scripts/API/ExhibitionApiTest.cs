@@ -1,5 +1,6 @@
 ﻿using ArtTechGallery.API.Models;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace ArtTechGallery.API
 {
@@ -11,6 +12,9 @@ namespace ArtTechGallery.API
         [SerializeField]
         private string exhibitionCode = "colors-of-nature";
 
+        [SerializeField]
+        private AR_Exhibition_Manager exhibitionManager;
+
         private void Start()
         {
             StartCoroutine(
@@ -20,8 +24,7 @@ namespace ArtTechGallery.API
                     HandleError));
         }
 
-        private static void HandleSuccess(
-            ExhibitionApiModel exhibition)
+        private void HandleSuccess(ExhibitionApiModel exhibition)
         {
             int artworksCount =
                 exhibition.artworks == null
@@ -33,17 +36,34 @@ namespace ArtTechGallery.API
                 $"artist: {exhibition.artistDisplayName}, " +
                 $"artworks: {artworksCount}");
 
-            if (exhibition.artworks == null)
+            List<ArtworkData> runtimeArtworks = new List<ArtworkData>();
+
+            if (exhibition.artworks != null)
             {
-                return;
+                foreach (ArtworkApiModel artwork in exhibition.artworks)
+                {
+                    ArtworkData runtimeArtwork = new ArtworkData
+                    {
+                        title = artwork.title,
+                        texture = null,
+                        widthInMeters = artwork.widthCm / 100f,
+                        heightInMeters = artwork.heightCm / 100f
+                    };
+
+                    runtimeArtworks.Add(runtimeArtwork);
+
+                    Debug.Log(
+                        $"Mapped artwork: {runtimeArtwork.title}, " +
+                        $"{runtimeArtwork.widthInMeters} x " +
+                        $"{runtimeArtwork.heightInMeters} m");
+                }
             }
 
-            foreach (ArtworkApiModel artwork in exhibition.artworks)
-            {
-                Debug.Log(
-                    $"Artwork: {artwork.title}, " +
-                    $"{artwork.widthCm} x {artwork.heightCm} cm");
-            }
+            exhibitionManager.SetArtworks(runtimeArtworks);
+
+            Debug.Log(
+                $"Runtime exhibition updated with " +
+                $"{runtimeArtworks.Count} artworks.");
         }
 
         private static void HandleError(string error)
